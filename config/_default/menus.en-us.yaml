@@ -1,0 +1,13 @@
+main:
+  - pageRef: /
+    name: Home
+    url: /
+    weight: 10
+  - pageRef: posts
+    name: Posts
+    url: /posts/
+    weight: 20
+  - pageRef: about
+    name: About
+    url: /about/
+    weight: 30

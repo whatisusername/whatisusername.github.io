@@ -1,0 +1,79 @@
+baseURL: https://whatisusername.github.io/
+languageCode: en-us
+defaultContentLanguage: en-us
+defaultContentLanguageInSubdir: true
+title: Yan's Blog
+theme: hugo-blog-awesome
+
+caches:
+  images:
+    dir: :cacheDir/images
+
+params:
+  browserconfig:
+    TileColor: "#2d89ef"
+  socialIcons:
+    - name: github
+      url: https://github.com/whatisusername
+    - name: X
+      url: https://x.com/limit1131
+    - name: YouTube
+      url: https://www.youtube.com/@YanJunGameDev
+
+Languages:
+  en-us:
+    languageName: English
+    languageCode: en-us
+    contentDir: content/en
+    weight: 1
+    params:
+      sitename: Yan's Game Tech blog
+      defaultColor: auto
+      description: Write something about game development
+      mainSections: ['posts']
+      toc: false
+      tocOpen: false
+      goToTop: true
+      rssFeedDescription: summary
+      reading_speed: 228
+      author:
+        avatar: avatar.jpg
+        intro: Cloud Engineer
+        name: Yan-Jun, Li
+        description: A geek who loves gaming and watching VTubers. This blog mainly features technical articles related to game development.
+      webmanifest:
+        name: sitename
+        short_name: sitename
+        start_url: /
+        theme_color: "#434648"
+        background_color: "#fff"
+        display: standalone
+
+  zh-tw:
+    languageName: Traditional Chinese
+    languageCode: zh-tw
+    contentDir: content/zh
+    weight: 2
+    params:
+      sitename: 技術部落格
+      defaultColor: auto
+      description: 撰寫遊戲開發相關的技術部落格
+      mainSections: ['posts']
+      toc: false
+      tocOpen: false
+      goToTop: true
+      dateFormat: 2006/1/2
+      rssFeedDescription: summary
+      reading_speed: 228
+      author:
+        avatar: avatar.jpg
+        intro: 雲端工程師
+        name: 李彥均
+        description: 一個喜歡打電動和追 VTuber 的宅宅，這個部落格主要是寫一些遊戲開發相關的技術文章
+      webmanifest:
+        name: sitename
+        short_name: sitename
+        start_url: /
+        theme_color: "#434648"
+        background_color: "#fff"
+        display: standalone
