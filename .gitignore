@@ -1,0 +1,32 @@
+# Ignore all files by default, but scan all directories
+*
+!*/
+
+# Hugo Themes
+!themes/
+
+# Ignore generated build files
+public/
+resources/
+
+# Projects and makefiles
+!*.code-snippets
+!Makefile
+
+# Text files
+!*.md
+
+# Other configuration and markup files
+!.git*
+!.editorconfig
+!*.yaml
+!*.yml
+!*.toml
+
+# Images
+!*.jpg
+
+# OS-specific
+[Dd]esktop.ini
+*~
+.DS_Store

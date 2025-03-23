@@ -1,0 +1,28 @@
+# EditorConfig is awesome: http://EditorConfig.org
+# Uses editorconfig to maintain consistent coding styles
+
+# top-most EditorConfig file
+root = true
+
+[*]
+charset = utf-8
+end_of_line = crlf
+indent_size = 4
+indent_style = space
+max_line_length = 80
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.md]
+max_line_length = 0
+
+[*.{yml,yaml,json.toml}]
+indent_size = 2
+indent_style = space
+
+[{Makefile}]
+tab_width = 2
+indent_style = tab
+
+[COMMIT_EDITMSG]
+max_line_length = 0
