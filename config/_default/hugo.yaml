@@ -9,6 +9,10 @@ caches:
   images:
     dir: :cacheDir/images
 
+services:
+  googleAnalytics:
+    id: G-TWRY9HEMCD
+
 params:
   browserconfig:
     TileColor: "#2d89ef"
